@@ -2,9 +2,9 @@
 
 USERID=$(id -u)
 
-if[ $USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
-    echo"please run this priveleg"
+    echo "please run this priveleg"
     exit 1
 fi
 
